@@ -271,10 +271,24 @@ console.log(c);
 */
 
  // power of a number
-var po=prompt('enter Any number');
-console.log('YOU HAVE entered' + ' ' +po);
-var ex=prompt('please enter number to be powed');
-console.log('the number TO POWED IS'+' '+ex);
-console.log('RESULT IS');
-var pw=Math.pow(po,ex);
-console.log(pw);
+ 
+ function add(a,b){
+	 return a+b; 
+ }
+
+ let firstNumber,secondNumber,sum;
+ firstNumber= prompt("Enter First Number","");
+ secondNumber= prompt("Enter secondNumber Number","");
+ firstNumber=Number(firstNumber);
+ secondNumber=Number(secondNumber);
+ sum = add(firstNumber,secondNumber);
+ alert(sum);
+
+
+// var po=prompt('enter Any number');
+// console.log('YOU HAVE entered' + ' ' +po);
+// var ex=prompt('please enter number to be powed');
+// console.log('the number TO POWED IS'+' '+ex);
+// console.log('RESULT IS');
+// var pw=Math.pow(po,ex);
+// console.log(pw);
