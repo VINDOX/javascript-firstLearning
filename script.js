@@ -296,5 +296,31 @@ console.log(c);
 // var pw=Math.pow(po,ex);
 // console.log(pw);
 
-var umuti=prompt('ENTER SOMEONE TO HELP');
-console.log('i need your help brother'+' '+'>>>' +'  '+'  ' +umuti);
+//var umuti=prompt('ENTER SOMEONE TO HELP');
+//console.log('i need your help brother'+' '+'>>>' +'  '+'  ' +umuti);
+
+
+// OBJECT AND FUNCTION
+
+var john={
+	name:'emmy',
+	yearbirty:1994,
+	sex:'male',
+};
+
+var produc=function(name,yearbirty,sex){
+	this.name=name;
+	this.yearbirty=yearbirty;
+	this.sex=sex;
+	this.calculateage=function(){
+		var ent=prompt ('enter the currently year');
+		var p=ent-this.yearbirty;
+		alert('you age is ' +p);
+		//console.log(ent-this.yearbirty);
+		//console.log(2020-this.yearbirty);
+
+	}
+}
+
+var john=new produc('emmy',1994,'male');
+john.calculateage();
