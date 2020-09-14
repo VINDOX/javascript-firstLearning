@@ -272,6 +272,7 @@ console.log(c);
 
  // power of a number
  
+ /*
  function add(a,b){
 	 return a+b; 
  }
@@ -284,6 +285,8 @@ console.log(c);
  sum = add(firstNumber,secondNumber);
  alert(sum);
 
+ */
+
 
 // var po=prompt('enter Any number');
 // console.log('YOU HAVE entered' + ' ' +po);
@@ -292,3 +295,6 @@ console.log(c);
 // console.log('RESULT IS');
 // var pw=Math.pow(po,ex);
 // console.log(pw);
+
+var umuti=prompt('ENTER SOMEONE TO HELP');
+console.log('i need your help brother'+' '+'>>>' +'  '+'  ' +umuti);
