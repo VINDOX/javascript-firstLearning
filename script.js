@@ -308,10 +308,10 @@ var john={
 	sex:'male',
 };
 
-var produc=function(name,yearbirty,sex){
+var Produc=function(name,yearbirty,sex){
 	this.name=name;
 	this.yearbirty=yearbirty;
-	this.sex=sex;
+	this.sex=sex;}
 	this.calculateage=function(){
 		var ent=prompt ('enter the currently year');
 		var p=ent-this.yearbirty;
@@ -320,7 +320,19 @@ var produc=function(name,yearbirty,sex){
 		//console.log(2020-this.yearbirty);
 
 	}
-}
+	 Produc.prototype.calculateage=function(){
+		console.log(1990-this.yearbirty);
+		var newy=prompt('please enter your sex');
+console.log(newy);
+	};
 
-var john=new produc('emmy',1994,'male');
+	//Produc.prototype.lastname='vindo';
+var john=new Produc('emmy',1989,'male');
+var peter=new Produc('piter',1980,'female');
+var james=new Produc('jame',1970,'male');
+
 john.calculateage();
+peter.calculateage();
+james.calculateage();
+
+
