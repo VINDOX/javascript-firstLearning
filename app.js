@@ -11,7 +11,7 @@ var UIController=(function(){
 var contoroller=(function(budgetCtrl,UItrl){
     var ctrlAddItem=function(){
 
-        console.log('it works')
+        console.log('you are done!!')
     }
     
     
